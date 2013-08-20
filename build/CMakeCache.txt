@@ -222,6 +222,15 @@ gtest_force_shared_crt:BOOL=OFF
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 
 //Dependencies for target
+hiberlite_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+lib/hiberlite/src_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+lib/hiberlite_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
 project_lib_LIB_DEPENDS:STATIC=
 
 //Build all test.

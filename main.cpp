@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <sqlite3.h>
 #include "project.h"
+#include "hiberlite.h"
 
 using namespace std;
 
@@ -52,32 +53,5 @@ void commandPrompt() {
 
 int main(int argc, char* argv[])
 {
-
-  sqlite3 *db;
-
-  char *zErrormsg = 0;
-
-  int rc;
-
-  rc = sqlite3_open("test.db", &db);
-
-  if(rc) {
-    fprintf(stderr, "Can't open database: %s\n", sqlite3_errmsg(db));
-    exit(0);
-  } else {
-    fprintf(stderr, "Opened database successfully\n");
-  }
-
-  char *sql;
-
-  sql = "CREATE TABLE IF NOT EXISTS PRODUCTS(" \
-    "ID INT PRIMARY KEY NOT NULL," \
-    "NAME CHAR(50) NOT NUll" \
-    "DESCRIPTION TEXT NOT NULL );";
-
-  // rc = sqlite3_exec(db, sql, );
-
    commandPrompt();
-
-   sqlite3_close(db);
 }
