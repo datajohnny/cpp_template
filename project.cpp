@@ -29,6 +29,4 @@ bool Project::Delete(int id) {
   return true;
 }
 
-void Project::CallBack() {
-  
-}
+void Project::CallBack() {}

@@ -6,7 +6,7 @@
 
 using namespace std;
 
-void commandPrompt(sqlite3 &db) {
+void commandPrompt() {
   int command_number;
   cout << "Welcome to Project Database" << endl;
   do {
@@ -75,7 +75,7 @@ int main(int argc, char* argv[])
     "NAME CHAR(50) NOT NUll" \
     "DESCRIPTION TEXT NOT NULL );";
 
-  rc = sqlite3_exec(db, sql, );
+  // rc = sqlite3_exec(db, sql, );
 
    commandPrompt();
 
