@@ -4,31 +4,31 @@
 
 using namespace std;
 
-TEST(ProjectApi, ReturnAllProjects) {
+TEST(Project, ReturnAllProjects) {
   Project *project = new Project();
   EXPECT_EQ(project->List(), "All Projects:");
 }
 
-TEST(ProjectApi,FindRecord) {
+TEST(Project,FindRecord) {
   Project *project = new Project();
   EXPECT_EQ(project->Find(1), "Find Project With Id: 1");
 }
 
-TEST(ProjectApi, CreateRecord) {
+TEST(Project, CreateRecord) {
   string name = "Johnny";
   string description = "Programmer";
   Project *project = new Project();
   EXPECT_TRUE(project->Create(name, description));
 }
 
-TEST(ProjectApi, UpdateRecord) {
+TEST(Project, UpdateRecord) {
   string name = "Johnny";
   string description = "Programmer";
   Project *project = new Project();
   EXPECT_TRUE(project->Create(name, description));
 }
 
-TEST(ProjectApi, DeleteRecord) {
+TEST(Project, DeleteRecord) {
   Project *project = new Project();
   EXPECT_TRUE(project->Delete(1));
 }

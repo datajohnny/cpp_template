@@ -28,3 +28,7 @@ bool Project::Update(string name, string description) {
 bool Project::Delete(int id) {
   return true;
 }
+
+void Project::CallBack() {
+  
+}
