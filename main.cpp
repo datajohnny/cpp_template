@@ -1,6 +1,10 @@
 #include <iostream>
+#include "project.h"
 
-int main() {
-  std::cout << "C++ Project" << std::endl;
+using namespace std;
+
+int main () {
+  cout << SayHello() << endl;
   return 0;
 }
+
