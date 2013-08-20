@@ -70,7 +70,7 @@ int main(int argc, char* argv[])
 
   char *sql;
 
-  sql = "CREATE TABLE PRODUCTS(" \
+  sql = "CREATE TABLE IF NOT EXISTS PRODUCTS(" \
     "ID INT PRIMARY KEY NOT NULL," \
     "NAME CHAR(50) NOT NUll" \
     "DESCRIPTION TEXT NOT NULL );";
