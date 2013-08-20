@@ -130,9 +130,9 @@ clean: CMakeFiles/project_lib.dir/clean
 
 # All Build rule for target.
 CMakeFiles/runUnitTests.dir/all: CMakeFiles/project_lib.dir/all
-CMakeFiles/runUnitTests.dir/all: lib/gmock-1.6.0/gtest/CMakeFiles/gtest.dir/all
-CMakeFiles/runUnitTests.dir/all: lib/gmock-1.6.0/gtest/CMakeFiles/gtest_main.dir/all
 CMakeFiles/runUnitTests.dir/all: lib/gmock-1.6.0/CMakeFiles/gmock_main.dir/all
+CMakeFiles/runUnitTests.dir/all: lib/gmock-1.6.0/gtest/CMakeFiles/gtest_main.dir/all
+CMakeFiles/runUnitTests.dir/all: lib/gmock-1.6.0/gtest/CMakeFiles/gtest.dir/all
 CMakeFiles/runUnitTests.dir/all: lib/gmock-1.6.0/CMakeFiles/gmock.dir/all
 	$(MAKE) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/depend
 	$(MAKE) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/build

@@ -1,1 +1,1 @@
-/usr/bin/c++   -g -Wall -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/project.dir/main.cpp.o  -o project  libproject_lib.a -lsqlite3 -lhiberlite 
+/usr/bin/c++   -g -Wall -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/project.dir/main.cpp.o  -o project  libproject_lib.a -lsqlite3 

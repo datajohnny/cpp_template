@@ -1,9 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
-#include <sqlite3.h>
 #include "project.h"
-#include "hiberlite.h"
 
 using namespace std;
 

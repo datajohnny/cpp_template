@@ -14,8 +14,6 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "../lib/hiberlite/include"
-  "../lib/hiberlite/src"
   "../lib/gmock-1.6.0/gtest/include"
   "../lib/gmock-1.6.0/gtest"
   "../lib/gmock-1.6.0/include"

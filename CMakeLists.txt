@@ -10,11 +10,8 @@ set(CMAKE_CXX_FLAGS "-g -Wall")
 add_library(project_lib project.cpp)
 add_executable(project main.cpp)
 
-include_directories(lib/hiberlite/include lib/hiberlite/src)
-
 target_link_libraries(project project_lib)
 target_link_libraries(project sqlite3)
-target_link_libraries(project hiberlite)
 
 if(test)
   add_subdirectory(lib/gmock-1.6.0)
