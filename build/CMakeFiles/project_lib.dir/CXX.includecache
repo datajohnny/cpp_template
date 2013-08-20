@@ -7,6 +7,16 @@
 #IncludeRegexTransform: 
 
 /Users/johnny/cpp/cpp_template/project.cpp
+stdio.h
+-
+stdlib.h
+-
+sqlite3.h
+-
+project.h
+/Users/johnny/cpp/cpp_template/project.h
+
+/Users/johnny/cpp/cpp_template/project.h
 iostream
 -
 

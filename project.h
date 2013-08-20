@@ -2,4 +2,11 @@
 
 using namespace std;
 
-string SayHello();
+class Project {
+public:
+  string List();
+  string Find(int id);
+  bool Create(string name, string description);
+  bool Update(string name, string description);
+  bool Delete(int id);
+};

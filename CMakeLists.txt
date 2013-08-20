@@ -11,6 +11,7 @@ add_library(project_lib project.cpp)
 add_executable(project main.cpp)
 
 target_link_libraries(project project_lib)
+target_link_libraries(project sqlite3)
 
 if(test)
   add_subdirectory(lib/gmock-1.6.0)
@@ -23,6 +24,6 @@ if(test)
 
   target_link_libraries(runUnitTests gtest gtest_main)
   target_link_libraries(runUnitTests gmock gmock_main)
-  
   target_link_libraries(runUnitTests project_lib)
+
 endif()

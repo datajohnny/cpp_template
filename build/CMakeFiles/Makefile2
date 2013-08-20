@@ -130,10 +130,10 @@ clean: CMakeFiles/project_lib.dir/clean
 
 # All Build rule for target.
 CMakeFiles/runUnitTests.dir/all: CMakeFiles/project_lib.dir/all
-CMakeFiles/runUnitTests.dir/all: lib/gmock-1.6.0/CMakeFiles/gmock.dir/all
 CMakeFiles/runUnitTests.dir/all: lib/gmock-1.6.0/CMakeFiles/gmock_main.dir/all
 CMakeFiles/runUnitTests.dir/all: lib/gmock-1.6.0/gtest/CMakeFiles/gtest_main.dir/all
 CMakeFiles/runUnitTests.dir/all: lib/gmock-1.6.0/gtest/CMakeFiles/gtest.dir/all
+CMakeFiles/runUnitTests.dir/all: lib/gmock-1.6.0/CMakeFiles/gmock.dir/all
 	$(MAKE) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/depend
 	$(MAKE) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /Users/johnny/cpp/cpp_template/build/CMakeFiles  7
@@ -222,8 +222,8 @@ clean: lib/gmock-1.6.0/CMakeFiles/gmock.dir/clean
 # Target rules for target lib/gmock-1.6.0/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-lib/gmock-1.6.0/CMakeFiles/gmock_main.dir/all: lib/gmock-1.6.0/CMakeFiles/gmock.dir/all
 lib/gmock-1.6.0/CMakeFiles/gmock_main.dir/all: lib/gmock-1.6.0/gtest/CMakeFiles/gtest.dir/all
+lib/gmock-1.6.0/CMakeFiles/gmock_main.dir/all: lib/gmock-1.6.0/CMakeFiles/gmock.dir/all
 	$(MAKE) -f lib/gmock-1.6.0/CMakeFiles/gmock_main.dir/build.make lib/gmock-1.6.0/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f lib/gmock-1.6.0/CMakeFiles/gmock_main.dir/build.make lib/gmock-1.6.0/CMakeFiles/gmock_main.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /Users/johnny/cpp/cpp_template/build/CMakeFiles  2

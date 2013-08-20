@@ -9,6 +9,12 @@
 /Users/johnny/cpp/cpp_template/main.cpp
 iostream
 -
+stdlib.h
+-
+stdio.h
+-
+sqlite3.h
+-
 project.h
 /Users/johnny/cpp/cpp_template/project.h
 
