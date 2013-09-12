@@ -6,3 +6,23 @@
 
 #IncludeRegexTransform: 
 
+/Users/johnny/cpp/cpp_template/main.cpp
+iostream
+-
+stdlib.h
+-
+stdio.h
+-
+string
+-
+project.h
+/Users/johnny/cpp/cpp_template/project.h
+
+/Users/johnny/cpp/cpp_template/project.h
+iostream
+-
+string
+-
+map
+-
+

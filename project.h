@@ -7,6 +7,7 @@ using namespace std;
 class Project {
 public:
   Project();
+  ~Project();
   void List();
   void Find(string name);
   void Create(string name, string desc);
@@ -15,6 +16,5 @@ public:
 
 
 private:
-  string dataFile_;
   multimap<string, string> projects_;
 };

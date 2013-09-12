@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 #include <map>
 #include <string>
 #include "project.h"
@@ -6,10 +7,11 @@
 using namespace std;
 
 Project::Project() {
-  this->dataFile_ = "data.txt";
   this->projects_.insert(pair<string, string>("project1", "Description of project1"));
   this->projects_.insert(pair<string, string>("project2", "Description of project2"));
 }
+
+Project::~Project() {}
 
 void Project::List() {
   for(multimap<string, string>::iterator it = this->projects_.begin(); it!=this->projects_.end(); ++it) {
