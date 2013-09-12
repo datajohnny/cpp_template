@@ -1,2 +1,0 @@
-/usr/bin/ar cr libproject_lib.a  CMakeFiles/project_lib.dir/project.cpp.o
-/usr/bin/ranlib libproject_lib.a

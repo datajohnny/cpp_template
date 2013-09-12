@@ -1,7 +1,0 @@
-/Users/johnny/cpp/cpp_template/build/lib/gmock-1.6.0/CMakeFiles/gmock.dir
-/Users/johnny/cpp/cpp_template/build/lib/gmock-1.6.0/CMakeFiles/gmock_main.dir
-/Users/johnny/cpp/cpp_template/build/lib/gmock-1.6.0/gtest/CMakeFiles/gtest.dir
-/Users/johnny/cpp/cpp_template/build/lib/gmock-1.6.0/gtest/CMakeFiles/gtest_main.dir
-/Users/johnny/cpp/cpp_template/build/CMakeFiles/project.dir
-/Users/johnny/cpp/cpp_template/build/CMakeFiles/project_lib.dir
-/Users/johnny/cpp/cpp_template/build/CMakeFiles/runUnitTests.dir
