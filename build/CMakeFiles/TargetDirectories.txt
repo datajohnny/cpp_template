@@ -1,0 +1,2 @@
+/Users/johnny/cpp/cpp_template/build/CMakeFiles/project.dir
+/Users/johnny/cpp/cpp_template/build/CMakeFiles/project_lib.dir

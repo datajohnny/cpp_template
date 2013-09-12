@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/runUnitTests.dir/project_test.cpp.o  -o runUnitTests  lib/gmock-1.6.0/gtest/libgtest.a lib/gmock-1.6.0/gtest/libgtest_main.a lib/gmock-1.6.0/libgmock.a lib/gmock-1.6.0/libgmock_main.a libproject_lib.a lib/gmock-1.6.0/libgmock.a lib/gmock-1.6.0/gtest/libgtest.a 
